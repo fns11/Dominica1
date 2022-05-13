@@ -47,7 +47,7 @@ with st.container():
         st.write(
             """
             On my YouTube channel I am creating tutorials for people who:
-            - are you looking for a way to looking for housing.
+            - are you looking for a way to look for housing.
             - are you struggling with life situations and want a change.
             - want to learn new skills and trades.
             - are trying to work and thinking  "there has to be a better way."

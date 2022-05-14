@@ -50,7 +50,7 @@ with st.container():
             - are you looking for a way to look for housing.
             - are you struggling with life situations and want a change.
             - want to learn new skills and trades.
-            - are trying to work and thinking  "there has to be a better way."
+            - are you trying to work and thinking  "there has to be a better way."
             If this sounds interesting to you, consider subscribing and and filling out the forms below.
             """
         )

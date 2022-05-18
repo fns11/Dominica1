@@ -30,7 +30,7 @@ img_lottie_animation = Image.open("demo_image1.png")
 
 # ---- HEADER SECTION ----
 with st.container():
-    st.subheader("Hi, I am Dominica :wave:")
+    st.subheader("Hi, Welcome to the SSVF Portal:wave:")
     st.title("A Veteran Counselor that's here to assist you")
     st.write(
         "Q: Where did you sleep last night, tell us all about it."

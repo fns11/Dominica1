@@ -143,7 +143,7 @@ st.text(number)
 st.markdown("Forms Inside")
 
 with st.form(key='columns_in_form'):
-    cols = st.columns(5)
+    cols = st.columns(3)
     for i, col in enumerate(cols):
         col.selectbox(f'Make a Selection', ['click', 'or click'], key=i)
     submitted = st.form_submit_button('Submit')

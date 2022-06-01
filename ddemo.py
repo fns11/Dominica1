@@ -3,19 +3,8 @@ import streamlit as st
 from streamlit_lottie import st_lottie
 from PIL import Image
 
-border_color = "lightgrey" if IS_DARK_THEME else "black"
-
-col.markdown(
-        f'<p align=center><a href="https://share.streamlit.io/{GITHUB_OWNER}/{repo}/main"><img style="border: 1px solid {border_color}" alt="{theme}" src="https://raw.githubusercontent.com/{GITHUB_OWNER}/theming-showcase/main/thumbnails/{theme}.png" width=150></a></p>',
-        #f'<p align=center><a href="https://share.streamlit.io/{GITHUB_OWNER}/{repo}/main"><img style="border: 1px solid {border_color}" alt="{theme}" src="https://raw.githubusercontent.com/{GITHUB_OWNER}/theming-showcase/main/thumbnails/{theme}.png" width=150></a></p>',
-        f'<p align=center><a href="https://apps.streamlitusercontent.com/{GITHUB_OWNER}/{repo}/main/streamlit_app.py/+/"><img style="border: 1px solid {border_color}" alt="{theme}" src="https://raw.githubusercontent.com/{GITHUB_OWNER}/theming-showcase/main/thumbnails/{theme}.png" width=150></a></p>',
-        unsafe_allow_html=True,
-    )
-if theme in ["light", "dark"]:
-
-
 # Find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
-        st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
+st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
 
 
 def load_lottieurl(url):

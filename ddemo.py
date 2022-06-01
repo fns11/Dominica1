@@ -120,7 +120,7 @@ with st.container():
 
 
 my_form = st.form(key = "form1")
-name = my_form.text_input(label = "Enter your name")
+name = my_form.text_input(label = "Enter your First and Last Name")
 number = my_form.slider("Enter your age", min_value=10, max_value = 100 )
 submit = my_form.form_submit_button(label = "Submit this form")
 
@@ -145,5 +145,5 @@ st.markdown("Forms Inside")
 with st.form(key='columns_in_form'):
     cols = st.columns(3)
     for i, col in enumerate(cols):
-        col.selectbox(f'Make a Selection', ['click', 'or click'], key=i)
+        col.selectbox(f'Choose Your Forms', ['click', 'or click'], key=i)
     submitted = st.form_submit_button('Submit')

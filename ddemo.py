@@ -112,16 +112,7 @@ with st.container():
     with right_column:
         st.empty()
         
-        
-        
-        
-        
-        
-        
-        
-        
         st.title("SSVF Forms Selection")
-
 #with st.form(key = "form1"):
 my_form = st.form(key = "form1")
 name = my_form.text_input(label = "Enter your First and Last Name")

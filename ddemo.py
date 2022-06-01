@@ -144,7 +144,7 @@ with st.form(key='columns_in_form'):
     cols = st.columns(3)
     for i, col in enumerate(cols):
         col.selectbox(f'Choose Your Forms', ['SSVF Screening', 'or SSVF Intake'], key=i)
-st.button>{
-    Background-color: Green;
+.stButton > {
+    Background-color: green;
 }
         submitted = st.form_submit_button('Submit')

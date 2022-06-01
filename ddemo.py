@@ -112,6 +112,8 @@ with st.container():
     with right_column:
         st.empty()
         
+        st.write("---")
+        
         st.title("SSVF Forms Selection")
 #with st.form(key = "form1"):
 my_form = st.form(key = "form1")

@@ -11,7 +11,7 @@ col.markdown(
         f'<p align=center><a href="https://apps.streamlitusercontent.com/{GITHUB_OWNER}/{repo}/main/streamlit_app.py/+/"><img style="border: 1px solid {border_color}" alt="{theme}" src="https://raw.githubusercontent.com/{GITHUB_OWNER}/theming-showcase/main/thumbnails/{theme}.png" width=150></a></p>',
         unsafe_allow_html=True,
     )
-    if theme in ["light", "dark"]:
+if theme in ["light", "dark"]:
 
 
 # Find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/

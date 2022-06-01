@@ -108,6 +108,8 @@ with st.container():
         <button type="submit">Send</button>
     </form>
     """
+    st.write("---")
+
     left_column, right_column = st.columns(2)
     with left_column:
         st.markdown(contact_form, unsafe_allow_html=True)

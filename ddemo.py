@@ -94,6 +94,7 @@ with st.container():
 with st.container():
     st.write("---")
     st.header("Get In Touch With Me if you have any questions!") 
+    st.title("SSVF Forms Selection")
     st.write("##")
 
     # Documention: https://formsubmit.co/ !!! CHANGE EMAIL ADDRESS !!!
@@ -113,8 +114,7 @@ with st.container():
         st.empty()
         
         st.write("---")
-        
-        st.title("SSVF Forms Selection")
+      
 #with st.form(key = "form1"):
 my_form = st.form(key = "form1")
 name = my_form.text_input(label = "Enter your First and Last Name")

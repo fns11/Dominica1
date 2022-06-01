@@ -96,7 +96,6 @@ with st.container():
     st.header("Get In Touch With Me if you have any questions!") 
     st.title("SSVF Forms Selection")
     st.write("##")
-    st.write("---")
 
     # Documention: https://formsubmit.co/ !!! CHANGE EMAIL ADDRESS !!!
     contact_form = """
@@ -108,13 +107,13 @@ with st.container():
         <button type="submit">Send</button>
     </form>
     """
-    st.write("---")
 
     left_column, right_column = st.columns(2)
     with left_column:
         st.markdown(contact_form, unsafe_allow_html=True)
     with right_column:
         st.empty()
+st.write("---")
               
 #with st.form(key = "form1"):
 my_form = st.form(key = "form1")

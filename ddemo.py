@@ -19,14 +19,8 @@ def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)        
 
-
 local_css("style_css.txt")
 
-def Intake_form(file_name):
-    with open(file_name) as f:
-        st.markdown(f"<style>{f.read()}</style>",unsafe_allow_html=True)
-Intake_form('SSVF HP Screener v6 9.2021.pdf')
-        
 # ---- LOAD ASSETS ----
 lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
 img_contact_form = Image.open("demo_image1.png")

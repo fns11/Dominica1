@@ -117,4 +117,4 @@ with st.container():
         <textarea name="message" placeholder="Your message here" required></textarea>
         <button type="submit">Send</button>
     </form>
-    """
+    """)

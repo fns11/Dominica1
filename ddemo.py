@@ -35,10 +35,9 @@ with st.container():
     )
     st.write("[Learn More & Download SSVF HP Screener Application Here>](https://docs.google.com/document/d/e/2PACX-1vSp_1zm6iAvep64Ib8Nw5MN8lRsDynr4g2NaAe21o_8umNX88RRgEsRt83Y3oEicfpFRL0dgR56h7_P/pub)")
 
-    st.write("[Learn More & Download SSVF HP Screener Application Here>](https://docs.google.com/document/d/e/2PACX-1vSp_1zm6iAvep64Ib8Nw5MN8lRsDynr4g2NaAe21o_8umNX88RRgEsRt83Y3oEicfpFRL0dgR56h7_P/pub)")
+    st.write("[Learn More & Download Intake Packet SSVF  Application Here>](https://docs.google.com/document/d/e/2PACX-1vSp_1zm6iAvep64Ib8Nw5MN8lRsDynr4g2NaAe21o_8umNX88RRgEsRt83Y3oEicfpFRL0dgR56h7_P/pub)")
     
-    st.write("[Learn More & Download Intake Packet SSVF 1 Here>])(https://docs.google.com/document/d/e/2PACX-1vSp_1zm6iAvep64Ib8Nw5MN8lRsDynr4g2NaAe21o_8umNX88RRgEsRt83Y3oEicfpFRL0dgR56h7_P/pub)")
-# ---- WHAT I DO ----
+    # ---- WHAT I DO ----
 with st.container():
     st.write("---")
     left_column, right_column = st.columns(2)

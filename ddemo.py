@@ -25,7 +25,7 @@ local_css("style_css.txt")
 def Intake_form(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>",unsafe_allow_html=True)
-Intake_form('SSVF HP Screener v6 9.2021')
+Intake_form('GC SSVF HP Screener.docx')
         
 # ---- LOAD ASSETS ----
 lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")

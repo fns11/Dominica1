@@ -40,13 +40,7 @@ name = my_form.text_input(label = "Enter your First and Last Name")
 number = my_form.slider("Enter your age", min_value=10, max_value = 100 )
 submit = my_form.form_submit_button(label = "Submit this form")
 
-with st.form('Form1'):
-    st.selectbox('Select your living status', ['Renting', 'Looking to Rent', 'Homeless'], key=1)
-       st.slider(label='Select intensity', min_value=0, max_value=100, key=4)
-        submitted1 = st.form_submit_button('Submit 1')
-        
-   
-        
+        st.markdown('Forms Below')
         st.markdown(''' Click the links below to Download and Fill out Apllications:
         
         ''')
@@ -135,4 +129,10 @@ with st.container():
 st.write("---")
 
 st.title("SSVF Forms Selection")
+
+with st.form('Form1'):
+    st.selectbox('Select your living status', ['Renting', 'Looking to Rent', 'Homeless'], key=1)
+       st.slider(label='Select intensity', min_value=0, max_value=100, key=4)
+        submitted1 = st.form_submit_button('Submit 1')
+
               

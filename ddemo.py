@@ -41,7 +41,7 @@ with st.container():
         
    
         
-        st.markdown(''' Click the links below to Download and Fill out Apllications
+        st.markdown(''' Click the links below to Download and Fill out Apllications:
         
         ''')
         

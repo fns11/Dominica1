@@ -121,4 +121,17 @@ with st.container():
     </form>
     """
     
-    )
+    left_column, right_column = st.columns(2)
+    with left_column:
+        st.markdown(contact_form, unsafe_allow_html=True)
+    with right_column:
+        st.empty()
+st.write("---")
+
+st.title("SSVF Forms Selection")
+              
+#with st.form(key = "form1"):
+my_form = st.form(key = "form1")
+name = my_form.text_input(label = "Enter your First and Last Name")
+number = my_form.slider("Enter your age", min_value=10, max_value = 100 )
+submit = my_form.form_submit_button(label = "Submit this form")

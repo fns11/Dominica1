@@ -39,6 +39,8 @@ with st.container():
         st.slider(label='Select intensity', min_value=0, max_value=100, key=4)
         submitted1 = st.form_submit_button('Submit 1')
         
+     st.write(--)
+        
         st.markdown(''' Click the links below to Download and Fill out Apllications
         
         ''')

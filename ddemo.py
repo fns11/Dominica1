@@ -33,6 +33,12 @@ with st.container():
     st.write(
         "Q: Where did you sleep last night, tell us all about it."
     )
+    
+    with st.form('Form1'):
+        st.selectbox('Select your living status', ['Renting', 'Looking to Rent'], key=1)
+        st.slider(label='Select intensity', min_value=0, max_value=100, key=4)
+        submitted1 = st.form_submit_button('Submit 1')
+        
     st.write("[Learn More & Download SSVF HP Screener Application Here>](https://docs.google.com/document/d/e/2PACX-1vSp_1zm6iAvep64Ib8Nw5MN8lRsDynr4g2NaAe21o_8umNX88RRgEsRt83Y3oEicfpFRL0dgR56h7_P/pub)")
 
     st.write("[Learn More & Download Intake Packet SSVF  Application Here>](https://docs.google.com/document/d/e/2PACX-1vSp_1zm6iAvep64Ib8Nw5MN8lRsDynr4g2NaAe21o_8umNX88RRgEsRt83Y3oEicfpFRL0dgR56h7_P/pub)")

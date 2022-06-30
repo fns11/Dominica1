@@ -33,6 +33,17 @@ with st.container():
     st.write(
         "Q: Where did you sleep last night, tell us all about it.")    
     st.write('---')
+    # Documention: https://formsubmit.co/ !!! CHANGE EMAIL ADDRESS !!!
+    contact_form = """
+    <form action="https://formsubmit.co/dominica.hewett@uwforsyth.org" method="POST">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="text" name="name" placeholder="Your name" required>
+        <input type="email" name="email" placeholder="Your email" required>
+        <textarea name="message" placeholder="Your message here" required></textarea>
+        <button type="submit">Send</button>
+    </form>
+    """
+    
     with st.form('Form1'):
             
             st.selectbox('Select your living status', ['Renting', 'Looking to Rent', 'Homeless'], key=1)

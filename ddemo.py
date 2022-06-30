@@ -34,7 +34,7 @@ with st.container():
         "Q: Where did you sleep last night, tell us all about it."
     )
     
-    st.write('--_')
+    st.write('---')
     with st.form('Form1'):
             
             st.selectbox('Select your living status', ['Renting', 'Looking to Rent', 'Homeless'], key=1)

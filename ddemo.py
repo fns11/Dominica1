@@ -35,9 +35,7 @@ with st.container():
     )
     
     st.write('--')
-    with col1:
-
-        with st.form('Form1'):
+    with st.form('Form1'):
             
             st.selectbox('Select your living status', ['Renting', 'Looking to Rent', 'Homeless'], key=1)
             st.slider(label='Select intensity', min_value=0, max_value=100, key=4)

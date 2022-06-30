@@ -41,9 +41,7 @@ number = my_form.slider("Enter your age", min_value=10, max_value = 100 )
 submit = my_form.form_submit_button(label = "Submit this form")
 
 st.markdown('Forms Below')
-
-        #st.markdown('Forms Below')
-        st.markdown(''' Click the links below to Download and Fill out Apllications:
+st.markdown(''' Click the links below to Download and Fill out Apllications:
         
         ''')
         

@@ -32,11 +32,11 @@ with st.container():
     st.title("We link you with a Veteran Counselor that's here to assist you")
     
     
-    my_form = st.form(key = "form1")
+with my_form = st.form(key = "form1")
+name = my_form.text_input(label = "Enter your First and Last Name")
+number = my_form.slider("Enter your age", min_value=10, max_value = 100 )
+submit = my_form.form_submit_button(label = "Submit this form")
     
-    name = my_form.text_input(label = "Enter your First and Last Name")
-    number = my_form.slider("Enter your age", min_value=10, max_value = 100 )
-    submit = my_form.form_submit_button(label = "Submit this form")
     st.write(
         "Q: Where did you sleep last night, tell us all about it."
     )

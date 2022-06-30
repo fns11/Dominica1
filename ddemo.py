@@ -31,9 +31,7 @@ with st.container():
     st.subheader("Welcome to the SSVF Portal:wave:")
     st.title("We link you with a Veteran Counselor that's here to assist you")    
     st.write(
-        "Q: Where did you sleep last night, tell us all about it."
-    )
-    
+        "Q: Where did you sleep last night, tell us all about it.")    
     st.write('---')
     with st.form('Form1'):
             

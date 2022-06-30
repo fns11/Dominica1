@@ -30,16 +30,18 @@ img_lottie_animation = Image.open("demo_image1.png")
 with st.container():
     st.subheader("Welcome to the SSVF Portal:wave:")
     st.title("We link you with a Veteran Counselor that's here to assist you")
+    
+    
+    my_form = st.form(key = "form1")
+    
+    name = my_form.text_input(label = "Enter your First and Last Name")
+    number = my_form.slider("Enter your age", min_value=10, max_value = 100 )
+    submit = my_form.form_submit_button(label = "Submit this form")
     st.write(
         "Q: Where did you sleep last night, tell us all about it."
     )
     
     #with st.form(key = "form1")
-my_form = st.form(key = "form1")
-name = my_form.text_input(label = "Enter your First and Last Name")
-number = my_form.slider("Enter your age", min_value=10, max_value = 100 )
-submit = my_form.form_submit_button(label = "Submit this form")
-
 st.markdown('Forms Below')
 st.markdown(''' Click the links below to Download and Fill out Apllications:
         
